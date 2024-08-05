@@ -37,5 +37,12 @@ python3 exps/mnist.py
 python3 exps/mnist_LNN.mojo
 ```
 ## Results
-<img src="https://github.com/Shubin-vadim/Mojo_experiments_ML/blob/master/results/HousingPrediction.png" width="400" alt="HousingPrediction" />
-<img src="https://github.com/Shubin-vadim/Mojo_experiments_ML/blob/master/results/MNIST.png" width="400" alt="MNIST" />
+
+### Visualizing Loss in Mojo and Python
+<img src="https://github.com/Shubin-vadim/Mojo_experiments_ML/blob/master/results/Merge.png" alt="merge" />
+
+### Performance Comparison Table for Mojo and Python
+||MNIST|House Price|
+|-----------|-----------|-----------|
+|Python|1.58 сек|23.18 сек|
+|Mojo|4.89 сек|0.15 сек|
