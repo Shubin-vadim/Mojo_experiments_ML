@@ -33,7 +33,7 @@ mojo -I . exps/mnist_LNN.mojo
   - Python
 ```bash
 python3 exps/housing.py
-python3 exps/mnist.py
+python3 exps/mnist_CNN.py
 python3 exps/mnist_LNN.mojo
 ```
 ## Results
